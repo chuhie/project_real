@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#click {
+
+  
+  position: absolute;
+  z-index: 2;
+  top:50%;
+  left: 59%;
+  transform: translate(-50%,-50%);
+  
+  animation-name: button, blink-effect;
+  animation-duration: 0.8s; 
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 1;
+  
+
+}
+
+
+
+.img_1{
+  position:absolute;
+left: 0; top: 0;}
+
+
+
+
+
+@keyframes blink-effect { 50% { opacity: 0; } } .blink { animation: blink-effect 0.5s step-end inherit; }
+
+
